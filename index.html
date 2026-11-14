@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>How to export your YouTube Watch Later list to a spreadsheet – WLX</title>
-  <meta name="description" content="Export your YouTube Watch Later list and playlists to CSV (Excel, Google Sheets) in one click with WLX, a Firefox add-on. Free up to 50 videos per playlist. No account, no server.">
+  <meta name="description" content="Export your YouTube Watch Later list and playlists to CSV (Excel, Google Sheets) in one click with WLX, an add-on for Firefox and Microsoft Edge. Free up to 50 videos per playlist. No account, no server.">
   <link rel="canonical" href="https://matthsanz.github.io/wlx/">
   <link rel="alternate" hreflang="en" href="https://matthsanz.github.io/wlx/">
   <link rel="alternate" hreflang="pt-BR" href="https://matthsanz.github.io/wlx/pt/">
@@ -13,7 +13,7 @@
   <link rel="icon" href="img/favicon-32.png" type="image/png" sizes="32x32">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Export your YouTube Watch Later list to a spreadsheet – WLX">
-  <meta property="og:description" content="A Firefox add-on that saves your Watch Later list and playlists to CSV in one click.">
+  <meta property="og:description" content="An add-on for Firefox and Microsoft Edge that saves your Watch Later list and playlists to CSV in one click.">
   <meta property="og:url" content="https://matthsanz.github.io/wlx/">
   <meta property="og:image" content="https://matthsanz.github.io/wlx/img/og.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -24,9 +24,9 @@
     "@type": "SoftwareApplication",
     "name": "WLX – Playlist & Watch Later Exporter for YouTube",
     "applicationCategory": "BrowserApplication",
-    "operatingSystem": "Firefox",
+    "operatingSystem": "Firefox, Microsoft Edge",
     "url": "https://matthsanz.github.io/wlx/",
-    "downloadUrl": "https://addons.mozilla.org/firefox/addon/wlx-playlist-exporter/",
+    "downloadUrl": ["https://addons.mozilla.org/firefox/addon/wlx-playlist-exporter/", "https://microsoftedge.microsoft.com/addons/detail/cejnaobnjbnkbiihgnaepegdfenlhhhp"],
     "description": "Export your YouTube Watch Later list and playlists to CSV, Markdown or JSON.",
     "offers": [
       { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD" },
@@ -57,12 +57,13 @@
   <div class="largura">
     <div>
       <h1>Export your YouTube Watch Later list to a spreadsheet</h1>
-      <p class="lide">YouTube has no export button for Watch Later, and its official API returns that list empty. WLX is a Firefox add-on that saves your Watch Later list and any playlist to a CSV file in one click: title, channel, duration and link of every video.</p>
+      <p class="lide">YouTube has no export button for Watch Later, and its official API returns that list empty. WLX is an add-on for Firefox and Microsoft Edge that saves your Watch Later list and any playlist to a CSV file in one click: title, channel, duration and link of every video.</p>
       <div class="botoes">
-        <a class="botao principal" href="https://addons.mozilla.org/firefox/addon/wlx-playlist-exporter/">Add to Firefox – it's free</a>
+        <a class="botao principal" href="https://addons.mozilla.org/firefox/addon/wlx-playlist-exporter/">Add to Firefox</a>
+        <a class="botao principal" href="https://microsoftedge.microsoft.com/addons/detail/cejnaobnjbnkbiihgnaepegdfenlhhhp">Add to Edge</a>
         <a class="botao secundario" href="#how">See how it works</a>
       </div>
-      <p class="nota">For Firefox on desktop. No account, no sign-up, no server.</p>
+      <p class="nota">Free, for Firefox and Edge on desktop. No account, no sign-up, no server.</p>
     </div>
     <figure>
       <img src="img/5-spreadsheet.png" alt="A spreadsheet exported by WLX with the position, title, channel, duration, link and status of each video" width="1280" height="800">
@@ -77,8 +78,8 @@
     <ol class="passos">
       <li>
         <h3>Install WLX</h3>
-        <p>Get it free from <a href="https://addons.mozilla.org/firefox/addon/wlx-playlist-exporter/">Firefox Add-ons</a>.</p>
-        <img src="img/4-popup.png" alt="The WLX window in the Firefox toolbar" width="1280" height="800" loading="lazy">
+        <p>Get it free from <a href="https://addons.mozilla.org/firefox/addon/wlx-playlist-exporter/">Firefox Add-ons</a> or <a href="https://microsoftedge.microsoft.com/addons/detail/cejnaobnjbnkbiihgnaepegdfenlhhhp">Microsoft Edge Add-ons</a>.</p>
+        <img src="img/4-popup.png" alt="The WLX window in the browser toolbar" width="1280" height="800" loading="lazy">
       </li>
       <li>
         <h3>Open the list on YouTube</h3>
@@ -132,7 +133,10 @@
           <li>Backup: the first 3 playlists</li>
           <li>"What disappeared?": how many videos became unavailable</li>
         </ul>
-        <a class="botao secundario" href="https://addons.mozilla.org/firefox/addon/wlx-playlist-exporter/">Add to Firefox</a>
+        <div class="botoes">
+          <a class="botao secundario" href="https://addons.mozilla.org/firefox/addon/wlx-playlist-exporter/">Add to Firefox</a>
+          <a class="botao secundario" href="https://microsoftedge.microsoft.com/addons/detail/cejnaobnjbnkbiihgnaepegdfenlhhhp">Add to Edge</a>
+        </div>
       </div>
       <div class="plano pro">
         <h3>WLX Pro</h3>
@@ -177,14 +181,14 @@
     </details>
     <details>
       <summary>Which browsers does it work on?</summary>
-      <p>Firefox on desktop (version 140 or newer). It does not work on Firefox for Android.</p>
+      <p>Firefox (version 140 or newer) and Microsoft Edge, on desktop. It does not work on phones.</p>
     </details>
     <details>
       <summary>How do I activate Pro?</summary>
       <ol>
         <li>Buy WLX Pro on <a href="https://matthsanz.gumroad.com/l/wlx-pro">Gumroad</a>. Your license key arrives right after payment.</li>
-        <li>Click the WLX icon in the Firefox toolbar, then <strong>Activate Pro</strong>.</li>
-        <li>Paste the key and click <strong>Activate</strong>. Firefox asks for permission to send the key to Gumroad: click <strong>Allow</strong>.</li>
+        <li>Click the WLX icon in the browser toolbar, then <strong>Activate Pro</strong>.</li>
+        <li>Paste the key and click <strong>Activate</strong>. In Firefox, a prompt asks for permission to send the key to Gumroad: click <strong>Allow</strong>.</li>
       </ol>
     </details>
     <details>
@@ -198,14 +202,14 @@
   <div class="largura">
     <h2>Support</h2>
     <p class="intro">Something not working, or a key that won't activate? Write to <a href="mailto:wlx.exporter@gmail.com">wlx.exporter@gmail.com</a>. Tell me the playlist link (if it's public) and what you see on screen.</p>
-    <p>If the button doesn't show up on YouTube, open <strong>about:addons</strong> in Firefox, click WLX, open <strong>Permissions</strong> and check that access to www.youtube.com is on. Then reload the YouTube page.</p>
+    <p>If the button doesn't show up on YouTube, open <strong>about:addons</strong> in Firefox, click WLX, open <strong>Permissions</strong> and check that access to www.youtube.com is on. In Edge, open <strong>edge://extensions</strong>, click <strong>Details</strong> under WLX and check <strong>Site access</strong>. Then reload the YouTube page.</p>
   </div>
 </section>
 
 <section id="privacy">
   <div class="largura privacidade">
     <h2>Privacy policy</h2>
-    <p>Last updated: October 18, 2026</p>
+    <p>Last updated: November 14, 2026</p>
     <h3>What WLX reads</h3>
     <p>When you click to export, WLX reads the list of videos of the YouTube playlist you opened (title, channel, duration, link and availability), using the YouTube session already open in your browser. It does not read anything else.</p>
     <h3>Where your data goes</h3>
@@ -217,7 +221,7 @@
     </ul>
     <p>This stays in the add-on's storage on your computer and is deleted when you remove the add-on.</p>
     <h3>What is sent to others</h3>
-    <p>Only your license key, and only if you activate Pro: it is sent to Gumroad (api.gumroad.com), the store that sells the license, when you activate it and about once a day while you use WLX, to check that it is still valid. Firefox asks for your permission before the first time. Gumroad's answer includes purchase details; WLX keeps only whether the key is valid. See <a href="https://gumroad.com/privacy">Gumroad's privacy policy</a>.</p>
+    <p>Only your license key, and only if you activate Pro: it is sent to Gumroad (api.gumroad.com), the store that sells the license, when you activate it and about once a day while you use WLX, to check that it is still valid. In Firefox, the browser asks for your permission before the first time. Gumroad's answer includes purchase details; WLX keeps only whether the key is valid. See <a href="https://gumroad.com/privacy">Gumroad's privacy policy</a>.</p>
     <h3>What WLX never does</h3>
     <p>No analytics, no tracking, no ads, and no selling or sharing of data. This page has no cookies or trackers either.</p>
     <h3>Contact</h3>
